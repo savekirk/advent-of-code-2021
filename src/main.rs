@@ -132,11 +132,23 @@ fn main() {
 
     // println!("Day 9 Part 1 : {}", days::nine::part_1(read_input("9")));
 
+    // println!(
+    //     "Day 9 Part 2 test : {}",
+    //     days::nine::part_2(read_input("9test"))
+    // );
+    // println!("Day 9 Part 2 : {}", days::nine::part_2(read_input("9")));
+
+    // println!(
+    //     "Day 10 Part 1 test : {}",
+    //     days::ten::part_1(read_input("10test"))
+    // );
+    // println!("Day 10 Part 1 : {}", days::ten::part_1(read_input("10")));
+
     println!(
-        "Day 9 Part 2 test : {}",
-        days::nine::part_2(read_input("9test"))
+        "Day 10 Part 2 test : {}",
+        days::ten::part_2(read_input("10test"))
     );
-    println!("Day 9 Part 2 : {}", days::nine::part_2(read_input("9")));
+    println!("Day 10 Part 2 : {}", days::ten::part_2(read_input("10")));
 }
 
 // Returns an Iterator to the Reader of the lines of the file.
